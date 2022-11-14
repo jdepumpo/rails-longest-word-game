@@ -1,0 +1,12 @@
+<h1>GAME </h1>
+
+
+<% if @onthegrid %>
+  <% if @english%>
+  <p> Amazing <%= @user_input %> is on grid </p>
+  <% else %>
+  <p> Not english</p>
+  <% end %>
+<% else %>
+<p>not in the grid</p>
+<% end %>
